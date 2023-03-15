@@ -5,11 +5,10 @@ int n = Convert.ToInt32(Console.ReadLine());
 if (n < 100)
   Console.WriteLine("Третьей цифры нет");
 else
+ if (n > 999)
 {
-  while (n > 999)
-  {
-    n /= 10;
-  }
-  Console.WriteLine(n % 10);
+  n /= 10;
 }
+Console.WriteLine(n % 10);
+
 
