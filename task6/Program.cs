@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// задача 6
 Console.Clear();
 Console.Write("введите число: ");
 int x = int.Parse(Console.ReadLine()!);
