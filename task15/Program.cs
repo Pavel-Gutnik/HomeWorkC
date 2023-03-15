@@ -1,4 +1,4 @@
-﻿// Семинар 2 задача 15
+﻿// Семинар 2 задача 15 
 Console.Clear();
 Console.Write("Введите число от (1 до 7): ");
 int x = Convert.ToInt32(Console.ReadLine());
