@@ -1,4 +1,4 @@
-﻿// Семинар 2 задача 10
+﻿// Семинар 2 задача 10 
 Console.Clear();
 Console.Write("Введите трёхзначное число: ");
 int n = Convert.ToInt32(Console.ReadLine());
